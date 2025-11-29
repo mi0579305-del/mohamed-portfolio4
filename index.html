@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رحلات - شركة سياحة وسفر</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-plane"></i>
+                <h1>رحلات<span>كوم</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#destinations">الوجهات</a></li>
+                    <li><a href="#packages">الباقات</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn-login">تسجيل الدخول</button>
+                <button class="btn-register">إنشاء حساب</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>اكتشف العالم معنا</h2>
+            <p>نقدم لك أفضل عروض الرحلات السياحية حول العالم بأسعار تنافسية وخدمات متميزة</p>
+            <div class="search-box">
+                <input type="text" placeholder="ابحث عن وجهة أحلامك...">
+                <button><i class="fas fa-search"></i> بحث</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">الوجهات الشعبية</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1539667547525-90c76a8db9e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="تركيا">
+                        <div class="card-overlay">
+                            <h3>تركيا</h3>
+                            <p>ابدأ من $599</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="اليابان">
+                        <div class="card-overlay">
+                            <h3>اليابان</h3>
+                            <p>ابدأ من $1299</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1562602831-0241d1fa0f97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="ماليزيا">
+                        <div class="card-overlay">
+                            <h3>ماليزيا</h3>
+                            <p>ابدأ من $799</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="مصر">
+                        <div class="card-overlay">
+                            <h3>مصر</h3>
+                            <p>ابدأ من $699</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">باقات الرحلات</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>الباقة الأساسية</h3>
+                        <div class="price">$499</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> تذاكر طيران ذهاب وعودة</li>
+                        <li><i class="fas fa-check"></i> فندق 3 نجوم</li>
+                        <li><i class="fas fa-check"></i> وجبة الإفطار</li>
+                        <li><i class="fas fa-times"></i> جولات سياحية</li>
+                        <li><i class="fas fa-times"></i> تأمين سفر</li>
+                    </ul>
+                    <button class="btn-book">احجز الآن</button>
+                </div>
+                <div class="package-card featured">
+                    <div class="package-badge">الأكثر شيوعاً</div>
+                    <div class="package-header">
+                        <h3>الباقة المميزة</h3>
+                        <div class="price">$899</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> تذاكر طيران ذهاب وعودة</li>
+                        <li><i class="fas fa-check"></i> فندق 4 نجوم</li>
+                        <li><i class="fas fa-check"></i> جميع الوجبات</li>
+                        <li><i class="fas fa-check"></i> جولات سياحية</li>
+                        <li><i class="fas fa-times"></i> تأمين سفر</li>
+                    </ul>
+                    <button class="btn-book">احجز الآن</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>الباقة الذهبية</h3>
+                        <div class="price">$1299</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> تذاكر طيران ذهاب وعودة</li>
+                        <li><i class="fas fa-check"></i> فندق 5 نجوم</li>
+                        <li><i class="fas fa-check"></i> جميع الوجبات</li>
+                        <li><i class="fas fa-check"></i> جولات سياحية</li>
+                        <li><i class="fas fa-check"></i> تأمين سفر</li>
+                    </ul>
+                    <button class="btn-book">احجز الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section class="payment-methods">
+        <div class="container">
+            <h2 class="section-title">طرق الدفع المتاحة</h2>
+            <div class="payment-grid">
+                <div class="payment-card">
+                    <i class="fab fa-cc-visa"></i>
+                    <h3>البطاقات الائتمانية</h3>
+                    <p>Visa, MasterCard, American Express</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>المحافظ الإلكترونية</h3>
+                    <p>PayPal, Apple Pay, Google Pay</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fas fa-university"></i>
+                    <h3>التحويل البنكي</h3>
+                    <p>تحويل مباشر إلى حساب الشركة</p>
+                </div>
+                <div class="payment-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>الدفع عند الاستلام</h3>
+                    <p>ادفع عند استلام التذاكر</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+محمد اسلام, [11/29/2025 5:41 AM]
+<section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>من نحن</h2>
+                    <p>رحلات كوم هي شركة سياحة وسفر رائدة في مجال تنظيم الرحلات السياحية حول العالم. نحن نقدم مجموعة واسعة من الخدمات السياحية المتميزة التي تلبي جميع احتياجات المسافرين.</p>
+                    <p>بخبرة تزيد عن 10 سنوات في مجال السياحة، نضمن لكم رحلات لا تنسى بأسعار تنافسية وجودة خدمة عالية.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>وجهة حول العالم</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10,000+</h3>
+                            <p>عميل سعيد</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15</h3>
+                            <p>جائزة سياحية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="فريق العمل">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>العنوان</h3>
+                            <p>شارع السياحة </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>الهاتف</h3>
+                            <p>+201000972728</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>mi0579305@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>ساعات العمل</h3>
+                            <p>الأحد - الخميس: 9 ص - 6 م</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="الاسم الكامل" required>
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                        <input type="tel" placeholder="رقم الهاتف">
+                        <textarea placeholder="رسالتك" rows="5" required></textarea>
+                        <button type="submit">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-plane"></i>
+                        <h2>رحلات<span>كوم</span></h2>
+                    </div>
+                    <p>شركة رحلات كوم للسياحة والسفر تقدم أفضل العروض والخدمات السياحية لعملائها الكرام.</p>
+
+<div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#destinations">الوجهات</a></li>
+                        <li><a href="#packages">الباقات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>الخدمات</h3>
+                    <ul>
+                        <li><a href="#">حجز الطيران</a></li>
+                        <li><a href="#">حجز الفنادق</a></li>
+                        <li><a href="#">الجولات السياحية</a></li>
+                        <li><a href="#">تأشيرات السفر</a></li>
+                        <li><a href="#">تأمين السفر</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>النشرة البريدية</h3>
+                    <p>اشترك في نشرتنا البريدية لتصلك آخر العروض</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="بريدك الإلكتروني">
+                        <button type="submit">اشتراك</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; 2023 رحلات كوم</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>حجز رحلة</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="destination">الوجهة:</label>
+                    <select id="destination" required>
+                        <option value="">اختر الوجهة</option>
+                        <option value="تركيا">تركيا</option>
+                        <option value="اليابان">اليابان</option>
+                        <option value="ماليزيا">ماليزيا</option>
+                        <option value="مصر">مصر</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="package">الباقة:</label>
+                    <select id="package" required>
+                        <option value="">اختر الباقة</option>
+                        <option value="أساسية">أساسية - $499</option>
+                        <option value="مميزة">مميزة - $899</option>
+                        <option value="ذهبية">ذهبية - $1299</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="travelers">عدد المسافرين:</label>
+                    <input type="number" id="travelers" min="1" max="10" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">تاريخ السفر:</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="payment">طريقة الدفع:</label>
+                    <select id="payment" required>
+                        <option value="">اختر طريقة الدفع</option>
+                        <option value="بطاقة ائتمانية">بطاقة ائتمانية</option>
+
+<option value="محفظة إلكترونية">محفظة إلكترونية</option>
+                        <option value="تحويل بنكي">تحويل بنكي</option>
+                        <option value="الدفع عند الاستلام">الدفع عند الاستلام</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="total">المبلغ الإجمالي:</label>
+                    <input type="text" id="total" readonly value="$0">
+                </div>
+                <button type="submit" class="btn-confirm">تأكيد الحجز</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
